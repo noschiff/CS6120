@@ -11,7 +11,7 @@ def count_variable_assignments(function):
 
 def main():
     parser = argparse.ArgumentParser(description="Analyze Bril program for variable assignment counts.")
-    parser.add_argument("bril", help="Bril file")
+    parser.add_argument("bril", help="Bril JSON file")
     args = parser.parse_args()
     
     with open(args.bril, "r") as f:
