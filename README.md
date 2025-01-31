@@ -1,2 +1,2 @@
 # CS6120
-CS 6120 SP25
+https://www.cs.cornell.edu/courses/cs6120/2025sp/
