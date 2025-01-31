@@ -1,0 +1,6 @@
+main:
+{'__0': []}
+is_decreasing:
+{'__0': ['label4'], 'label4': ['label5', 'label6'], 'label5': ['label11', 'label12'], 'label11': [], '__4': ['label13'], 'label12': ['label13'], 'label13': ['label4'], 'label6': []}
+last_digit:
+{'__0': []}

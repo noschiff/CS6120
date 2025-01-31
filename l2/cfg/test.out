@@ -1,0 +1,2 @@
+main:
+{'wait': ['wait_again'], 'wait_again': ['start'], 'start': ['wait_again', 'skip'], 'skip': ['finish', 'cont'], 'finish': ['useless'], 'useless': [], 'cont': ['wait'], 'nothing': ['here'], 'here': []}

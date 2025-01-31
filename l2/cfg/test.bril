@@ -1,0 +1,18 @@
+@main {
+    .wait:
+    .wait_again:
+    .start:
+    a : int = const 0;
+    b : bool = true;
+    br b .wait_again .skip;
+    .skip:
+    br b .finish .cont;
+    .finish:
+    c : int = const 1;
+    .useless:
+    ret a;
+    .cont:
+    jmp .wait;
+    .nothing:
+    .here:
+}
