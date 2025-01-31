@@ -1,0 +1,24 @@
+main:
+  x1: 1
+  n1: 1
+  x_to_n1: 1
+  x2: 1
+  n2: 1
+  x_to_n2: 1
+exp_by_squaring_iterative:
+  n: 3
+  x: 2
+  y: 2
+  zero: 1
+  one_float: 1
+  one_int: 1
+  two: 1
+  lt0: 1
+  is0: 1
+  guard: 1
+  half: 1
+  doublehalf: 1
+  iseven: 1
+  isodd: 1
+  dec: 1
+  result: 1

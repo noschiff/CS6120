@@ -1,0 +1,1 @@
+command = "bril2json < {filename} > /tmp/{base}.json; python assignment_analysis.py /tmp/{base}.json"

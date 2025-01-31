@@ -1,0 +1,15 @@
+main:
+  tmp: 3
+  vals_i: 2
+  i: 2
+  i_minus_one: 2
+  i_minus_two: 2
+  zero: 1
+  one: 1
+  neg_one: 1
+  vals: 1
+  cond: 1
+  vals_i_minus_one: 1
+  vals_i_minus_two: 1
+  tmp2: 1
+  last: 1

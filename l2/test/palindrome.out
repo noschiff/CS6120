@@ -1,0 +1,33 @@
+main:
+  index: 2
+  not_finished: 2
+  ten: 1
+  zero: 1
+  one: 1
+  power: 1
+  d: 1
+  check: 1
+  exp: 1
+  is_palindrome: 1
+pow:
+  res: 2
+  not_finished: 2
+  zero: 1
+  one: 1
+  finished: 1
+  exp: 1
+palindrome:
+  is_palindrome: 4
+  temp: 3
+  zero: 1
+  two: 1
+  ten: 1
+  check: 1
+  power: 1
+  left: 1
+  v1: 1
+  v2: 1
+  right: 1
+  is_equal: 1
+  next_in: 1
+  next_len: 1

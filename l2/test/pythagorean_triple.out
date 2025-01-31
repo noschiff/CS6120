@@ -1,0 +1,10 @@
+main:
+  a: 2
+  b: 2
+  done: 2
+  one: 1
+  n_sq: 1
+  a_sq: 1
+  b_sq: 1
+  sum: 1
+  found: 1
