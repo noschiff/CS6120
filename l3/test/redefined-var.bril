@@ -1,0 +1,11 @@
+@main {
+    a : int = const 2;
+    b : int = const 0;
+    a : int = add b b;
+    print a;
+    a : int = const 0;
+    jmp .bob;
+    .bob:
+    a : int = const 1;
+    a : int = const 2;
+}

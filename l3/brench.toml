@@ -1,0 +1,19 @@
+extract = 'total_dyn_inst: (\d+)'
+benchmarks = 'test/*.bril'
+dfbenchmarks = '../../bril/benchmarks/*/*.bril'
+[runs.baseline]
+pipeline = [
+    "bril2json",
+    "brilirs -p {args}",
+]
+timeout = 100
+
+[runs.opt]
+pipeline = [
+    "bril2json",
+    "python tdce.py",
+    "python lvn.py",
+    "python tdce.py",
+    "brilirs -p {args}",
+]
+timeout = 100

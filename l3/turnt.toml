@@ -1,0 +1,3 @@
+# command = "bash -c 'python tdce.py <(bril2json < {filename}) | bril2txt'" #use bash process substitution
+# output.tdce = "-"
+command = "bril2json < {filename} | python tdce.py | python lvn.py | python tdce.py | bril2txt"

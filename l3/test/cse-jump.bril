@@ -1,0 +1,10 @@
+@main {
+    a : int=const 44;
+    b : int = const 22;
+    jmp .b;
+    .b:
+    sum1 : int = add a b;
+    sum2 : int = add a b;
+    prod : int = mul sum1 sum2;
+    print prod;
+}
