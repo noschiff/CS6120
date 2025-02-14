@@ -1,6 +1,6 @@
 extract = 'total_dyn_inst: (\d+)'
-benchmarks = 'test/*.bril'
-dfbenchmarks = '../../bril/benchmarks/*/*.bril'
+benchmarks = '../../bril/benchmarks/*/*.bril'
+
 [runs.baseline]
 pipeline = [
     "bril2json",
