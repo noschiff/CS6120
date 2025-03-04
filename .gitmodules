@@ -1,0 +1,3 @@
+[submodule "optimizations"]
+	path = optimizations
+	url = https://github.com/KabirSamsi/advanced-compilers.git
